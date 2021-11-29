@@ -22,4 +22,9 @@
         android:name="com.example.zihuame.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.example.zihuame.ui.events.EventsFragment"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events" />
 </navigation>
