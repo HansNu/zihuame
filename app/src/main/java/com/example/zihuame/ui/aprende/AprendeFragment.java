@@ -1,4 +1,4 @@
-package com.example.zihuame.ui.home;
+package com.example.zihuame.ui.aprende;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,27 +12,26 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.zihuame.R;
 import com.example.zihuame.databinding.FragmentHomeBinding;
 
-public class HomeFragment extends Fragment {
+public class AprendeFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private AprendeViewModel aprendeViewModel;
     private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        aprendeViewModel =
+                new ViewModelProvider(this).get(AprendeViewModel.class);
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        aprendeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
+                //textView.setText(s);
             }
         });
         return root;

@@ -3,28 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_aprende">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.zihuame.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:id="@+id/navigation_aprende"
+        android:name="com.example.zihuame.ui.aprende.AprendeFragment"
+        android:label="Aprende"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.zihuame.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_events"
+        android:name="com.example.zihuame.ui.events.EventsFragment"
+        android:label="Eventos"
+        tools:layout="@layout/fragment_events" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.zihuame.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:id="@+id/navigation_guardados"
+        android:name="com.example.zihuame.ui.guardados.GuardadosFragment"
+        android:label="Guardados"
         tools:layout="@layout/fragment_notifications" />
     <fragment
-        android:id="@+id/eventsFragment"
-        android:name="com.example.zihuame.ui.events.EventsFragment"
-        android:label="fragment_events"
-        tools:layout="@layout/fragment_events" />
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.zihuame.ui.perfil.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_dashboard" />
 </navigation>

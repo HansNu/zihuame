@@ -3,13 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/activity_main.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/event_listview.xml" value="0.33" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_dashboard.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_events.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_home.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_notifications.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/xml/network_security_config.xml" value="0.21927083333333333" />
         <entry key="..\:/hans/zihuame/zihuame/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
         <entry key="..\:/hans/zihuame/zihuame/app/src/main/res/layout/fragment_events.xml" value="0.25416666666666665" />
-        <entry key="..\:/hans/zihuame/zihuame/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/hans/zihuame/zihuame/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
