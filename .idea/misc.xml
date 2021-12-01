@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/drawable/btn_circlebg.xml" value="0.23541666666666666" />
         <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/activity_main.xml" value="0.3875" />
         <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/event_listview.xml" value="0.33" />
-        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_dashboard.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
         <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_events.xml" value="0.3875" />
         <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_home.xml" value="0.3875" />
-        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_notifications.xml" value="0.3875" />
+        <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
         <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3875" />
         <entry key="..\:/Users/Armrs/Documents/GitHub/zihuame/app/src/main/res/xml/network_security_config.xml" value="0.21927083333333333" />
         <entry key="..\:/hans/zihuame/zihuame/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />

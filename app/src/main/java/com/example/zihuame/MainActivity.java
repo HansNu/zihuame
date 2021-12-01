@@ -15,6 +15,7 @@ import com.example.zihuame.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    public static boolean signed_in = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -21,7 +21,11 @@
         android:id="@+id/navigation_guardados"
         android:name="com.example.zihuame.ui.guardados.GuardadosFragment"
         android:label="Guardados"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications" >
+        <action
+            android:id="@+id/guardados_to_perfil"
+            app:destination="@id/navigation_perfil" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_perfil"
         android:name="com.example.zihuame.ui.perfil.PerfilFragment"
